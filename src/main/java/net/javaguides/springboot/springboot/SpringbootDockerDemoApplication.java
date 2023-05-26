@@ -12,7 +12,7 @@ public class SpringbootDockerDemoApplication {
 
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "Spring Boot Docker Demo v5";
+		return "Spring Boot Docker Demo update port";
 	}
 
 	public static void main(String[] args) {
