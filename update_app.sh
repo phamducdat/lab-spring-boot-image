@@ -18,6 +18,8 @@ done
 
 echo "All 'springboot-docker-demo' containers have been stopped and removed."
 
+docker image prune --force
+
 # build your Spring Boot application
 mvn clean install
 
