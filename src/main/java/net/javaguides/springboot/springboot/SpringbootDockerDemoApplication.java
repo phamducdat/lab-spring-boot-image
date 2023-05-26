@@ -12,7 +12,7 @@ public class SpringbootDockerDemoApplication {
 
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "Spring Boot Docker Demo update port";
+		return "Spring Boot Docker Demo connect to postgres container";
 	}
 
 	public static void main(String[] args) {
